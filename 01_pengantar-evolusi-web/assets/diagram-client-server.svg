@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="620" viewBox="0 0 1400 620">
+  <defs>
+    <style>
+      .title{font:700 38px Arial;fill:#173b66}
+      .label{font:700 25px Arial;fill:#173b66}
+      .sub{font:400 18px Arial;fill:#44546a}
+      .box{fill:#f7f9fc;stroke:#1f5f99;stroke-width:4;rx:22}
+      .ai{fill:#fff7e8;stroke:#f28c28;stroke-width:4;rx:22}
+      .arrow{stroke:#1f5f99;stroke-width:8;fill:none;marker-end:url(#arrow)}
+      .arrow2{stroke:#f28c28;stroke-width:8;fill:none;marker-end:url(#arrow2)}
+    </style>
+    <marker id="arrow" markerWidth="14" markerHeight="14" refX="12" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 Z" fill="#1f5f99"/>
+    </marker>
+    <marker id="arrow2" markerWidth="14" markerHeight="14" refX="12" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 Z" fill="#f28c28"/>
+    </marker>
+  </defs>
+  <rect width="1400" height="620" fill="white"/>
+  <text x="700" y="70" text-anchor="middle" class="title">Arsitektur Client–Server Aplikasi Web Modern</text>
+
+  <rect x="55" y="225" width="230" height="150" class="box"/>
+  <text x="170" y="280" text-anchor="middle" class="label">Pengguna</text>
+  <text x="170" y="320" text-anchor="middle" class="sub">Laptop / Ponsel</text>
+  <text x="170" y="350" text-anchor="middle" class="sub">Browser</text>
+
+  <rect x="390" y="225" width="250" height="150" class="box"/>
+  <text x="515" y="280" text-anchor="middle" class="label">Frontend</text>
+  <text x="515" y="320" text-anchor="middle" class="sub">HTML • CSS</text>
+  <text x="515" y="350" text-anchor="middle" class="sub">JavaScript</text>
+
+  <rect x="745" y="225" width="250" height="150" class="box"/>
+  <text x="870" y="280" text-anchor="middle" class="label">Backend / API</text>
+  <text x="870" y="320" text-anchor="middle" class="sub">Node.js</text>
+  <text x="870" y="350" text-anchor="middle" class="sub">Express.js</text>
+
+  <rect x="1100" y="125" width="240" height="140" class="box"/>
+  <text x="1220" y="180" text-anchor="middle" class="label">Database</text>
+  <text x="1220" y="220" text-anchor="middle" class="sub">MySQL</text>
+
+  <rect x="1100" y="355" width="240" height="140" class="ai"/>
+  <text x="1220" y="410" text-anchor="middle" class="label">Layanan AI</text>
+  <text x="1220" y="450" text-anchor="middle" class="sub">Gemini / OpenAI</text>
+
+  <path d="M285 300 H385" class="arrow"/>
+  <path d="M640 300 H740" class="arrow"/>
+  <path d="M995 270 C1040 235,1040 195,1095 195" class="arrow"/>
+  <path d="M995 330 C1040 365,1040 425,1095 425" class="arrow2"/>
+
+  <text x="335" y="282" text-anchor="middle" class="sub">HTTP</text>
+  <text x="690" y="282" text-anchor="middle" class="sub">Request / JSON</text>
+
+  <text x="700" y="555" text-anchor="middle" class="sub">
+    Pertemuan 1: memahami komponen dan alur, belum melakukan implementasi kode.
+  </text>
+</svg>
