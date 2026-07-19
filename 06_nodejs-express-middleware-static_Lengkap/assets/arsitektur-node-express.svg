@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="650" viewBox="0 0 1400 650">
+<rect width="1400" height="650" fill="#f7f9fc"/>
+<text x="700" y="70" font-family="Arial" font-size="38" font-weight="700" text-anchor="middle" fill="#173B66">Arsitektur Node.js + Express.js</text>
+<defs><marker id="a" markerWidth="14" markerHeight="14" refX="12" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 Z" fill="#1F5F99"/></marker></defs>
+<g font-family="Arial">
+<rect x="70" y="230" width="240" height="150" rx="22" fill="#ffffff" stroke="#1F5F99" stroke-width="4"/>
+<text x="190" y="285" font-size="27" font-weight="700" text-anchor="middle" fill="#173B66">Browser</text>
+<text x="190" y="325" font-size="18" text-anchor="middle" fill="#4B5A6A">Frontend</text>
+<rect x="420" y="210" width="270" height="190" rx="22" fill="#ffffff" stroke="#23A455" stroke-width="4"/>
+<text x="555" y="275" font-size="27" font-weight="700" text-anchor="middle" fill="#173B66">Node.js</text>
+<text x="555" y="315" font-size="18" text-anchor="middle" fill="#4B5A6A">Runtime</text>
+<text x="555" y="350" font-size="18" text-anchor="middle" fill="#4B5A6A">Express App</text>
+<rect x="800" y="135" width="250" height="140" rx="22" fill="#fff7e8" stroke="#F28C28" stroke-width="4"/>
+<text x="925" y="195" font-size="25" font-weight="700" text-anchor="middle" fill="#173B66">Middleware</text>
+<text x="925" y="232" font-size="17" text-anchor="middle" fill="#4B5A6A">Logger · Parser</text>
+<rect x="800" y="375" width="250" height="140" rx="22" fill="#ffffff" stroke="#1F5F99" stroke-width="4"/>
+<text x="925" y="435" font-size="25" font-weight="700" text-anchor="middle" fill="#173B66">Routes</text>
+<text x="925" y="472" font-size="17" text-anchor="middle" fill="#4B5A6A">HTML · JSON</text>
+<rect x="1140" y="255" width="210" height="140" rx="22" fill="#ffffff" stroke="#17A398" stroke-width="4"/>
+<text x="1245" y="315" font-size="25" font-weight="700" text-anchor="middle" fill="#173B66">public/</text>
+<text x="1245" y="352" font-size="17" text-anchor="middle" fill="#4B5A6A">Static files</text>
+<path d="M310 305 H410" stroke="#1F5F99" stroke-width="8" fill="none" marker-end="url(#a)"/>
+<path d="M690 300 C750 250 750 205 795 205" stroke="#1F5F99" stroke-width="8" fill="none" marker-end="url(#a)"/>
+<path d="M690 330 C750 380 750 445 795 445" stroke="#1F5F99" stroke-width="8" fill="none" marker-end="url(#a)"/>
+<path d="M1050 445 C1100 430 1110 345 1135 325" stroke="#1F5F99" stroke-width="8" fill="none" marker-end="url(#a)"/>
+</g>
+</svg>

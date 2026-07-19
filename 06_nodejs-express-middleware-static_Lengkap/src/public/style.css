@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(135deg, #eef7f0, #f7f9fc);
+  color: #173b66;
+}
+
+.container {
+  width: min(960px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.hero, .panel {
+  background: #ffffff;
+  border-radius: 24px;
+  padding: 28px;
+  box-shadow: 0 16px 40px rgba(23, 59, 102, 0.12);
+  margin-bottom: 22px;
+}
+
+.badge {
+  display: inline-block;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: #e8f7ee;
+  color: #157a3f;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+h1 {
+  font-size: clamp(32px, 5vw, 52px);
+  margin: 16px 0 12px;
+}
+
+p {
+  color: #4b5a6a;
+  line-height: 1.7;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 22px;
+}
+
+button, a {
+  border: none;
+  background: #23a455;
+  color: white;
+  padding: 12px 18px;
+  border-radius: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a {
+  background: #1f5f99;
+}
+
+.produk-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: 14px;
+}
+
+.produk-list li {
+  border: 1px solid #d8e2ef;
+  border-left: 7px solid #f28c28;
+  border-radius: 18px;
+  padding: 16px;
+  background: #fbfcfe;
+}
+
+.produk-list strong {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+
+.produk-list span {
+  color: #1f5f99;
+  font-weight: 700;
+}
+
+code {
+  background: #eef3f8;
+  padding: 2px 6px;
+  border-radius: 6px;
+}

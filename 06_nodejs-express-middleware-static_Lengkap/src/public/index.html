@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Asisten AI UMKM</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <section class="hero">
+      <p class="badge">Pertemuan 6 · Node.js + Express</p>
+      <h1>Server Asisten AI UMKM</h1>
+      <p>Frontend static dilayani oleh Express dan data produk dikirim melalui endpoint JSON.</p>
+      <div class="actions">
+        <a href="/api/status" target="_blank">Cek Status API</a>
+        <button id="loadProduk">Ambil Data Produk</button>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Daftar Produk Dummy</h2>
+      <p>Klik tombol untuk mengambil data dari endpoint <code>/api/produk</code>.</p>
+      <ul id="produkList" class="produk-list"></ul>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
