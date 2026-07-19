@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="620" viewBox="0 0 1400 620">
+  <defs>
+    <style>.title{font:700 36px Arial;fill:#173b66}.h{font:700 24px Arial;fill:#173b66}.s{font:400 18px Arial;fill:#4b5a6a}.box{fill:#f7f9fc;stroke:#1f5f99;stroke-width:4;rx:22}.box2{fill:#fff6eb;stroke:#f28c28;stroke-width:4;rx:22}.box3{fill:#eefbf8;stroke:#17a398;stroke-width:4;rx:22}.ar{stroke:#1f5f99;stroke-width:7;fill:none;marker-end:url(#arr)}.dash{stroke:#f28c28;stroke-width:7;fill:none;stroke-dasharray:14 10;marker-end:url(#arr2)}</style>
+    <marker id="arr" markerWidth="14" markerHeight="14" refX="12" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 Z" fill="#1f5f99"/></marker>
+    <marker id="arr2" markerWidth="14" markerHeight="14" refX="12" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 Z" fill="#f28c28"/></marker>
+  </defs>
+  <rect width="1400" height="620" fill="white"/>
+  <text class="title" x="700" y="66" text-anchor="middle">Posisi JavaScript pada Asisten AI untuk UMKM</text>
+  <rect class="box" x="60" y="230" width="250" height="140"/><text class="h" x="185" y="285" text-anchor="middle">Pengguna</text><text class="s" x="185" y="325" text-anchor="middle">input produk</text>
+  <rect class="box3" x="390" y="230" width="270" height="140"/><text class="h" x="525" y="285" text-anchor="middle">Frontend</text><text class="s" x="525" y="325" text-anchor="middle">HTML + CSS + JS</text>
+  <rect class="box2" x="740" y="135" width="270" height="140"/><text class="h" x="875" y="190" text-anchor="middle">Data Dummy</text><text class="s" x="875" y="230" text-anchor="middle">JSON lokal / API publik</text>
+  <rect class="box" x="740" y="355" width="270" height="140"/><text class="h" x="875" y="410" text-anchor="middle">Backend P6+</text><text class="s" x="875" y="450" text-anchor="middle">Node.js + Express</text>
+  <rect class="box2" x="1090" y="355" width="250" height="140"/><text class="h" x="1215" y="410" text-anchor="middle">AI API P10</text><text class="s" x="1215" y="450" text-anchor="middle">Gemini/OpenAI</text>
+  <path class="ar" d="M310 300 H385"/><path class="ar" d="M660 280 C690 235 710 205 735 205"/><path class="dash" d="M660 330 C700 380 710 425 735 425"/><path class="dash" d="M1010 425 H1085"/>
+  <text class="s" x="700" y="565" text-anchor="middle">P5 fokus pada interaksi frontend. Backend dan AI API baru menjadi materi pertemuan berikutnya.</text>
+</svg>

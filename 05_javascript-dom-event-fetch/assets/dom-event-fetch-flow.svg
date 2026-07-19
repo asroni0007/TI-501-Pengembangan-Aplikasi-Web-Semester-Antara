@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="680" viewBox="0 0 1400 680">
+  <defs>
+    <style>
+      .title{font:700 38px Arial;fill:#173b66}.h{font:700 25px Arial;fill:#173b66}.s{font:400 18px Arial;fill:#4b5a6a}.b{fill:#f7f9fc;stroke:#1f5f99;stroke-width:4;rx:24}.o{fill:#fff6eb;stroke:#f28c28;stroke-width:4;rx:24}.t{fill:#eefbf8;stroke:#17a398;stroke-width:4;rx:24}.a{stroke:#1f5f99;stroke-width:8;fill:none;marker-end:url(#arr)}.a2{stroke:#f28c28;stroke-width:8;fill:none;marker-end:url(#arr2)}
+    </style>
+    <marker id="arr" markerWidth="14" markerHeight="14" refX="12" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 Z" fill="#1f5f99"/></marker>
+    <marker id="arr2" markerWidth="14" markerHeight="14" refX="12" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 Z" fill="#f28c28"/></marker>
+  </defs>
+  <rect width="1400" height="680" fill="white"/>
+  <text class="title" x="700" y="72" text-anchor="middle">Alur JavaScript: DOM, Event, dan Fetch API</text>
+  <rect class="b" x="70" y="210" width="250" height="150"/><text class="h" x="195" y="268" text-anchor="middle">HTML</text><text class="s" x="195" y="310" text-anchor="middle">struktur halaman</text>
+  <rect class="t" x="415" y="210" width="250" height="150"/><text class="h" x="540" y="268" text-anchor="middle">DOM</text><text class="s" x="540" y="310" text-anchor="middle">representasi objek</text>
+  <rect class="o" x="760" y="210" width="250" height="150"/><text class="h" x="885" y="268" text-anchor="middle">Event</text><text class="s" x="885" y="310" text-anchor="middle">aksi pengguna</text>
+  <rect class="b" x="1095" y="120" width="250" height="150"/><text class="h" x="1220" y="178" text-anchor="middle">Update UI</text><text class="s" x="1220" y="220" text-anchor="middle">hasil ditampilkan</text>
+  <rect class="o" x="1095" y="390" width="250" height="150"/><text class="h" x="1220" y="448" text-anchor="middle">Fetch API</text><text class="s" x="1220" y="490" text-anchor="middle">ambil data eksternal</text>
+  <path class="a" d="M320 285 H410"/><path class="a" d="M665 285 H755"/><path class="a" d="M1010 250 C1040 220 1055 195 1090 195"/><path class="a2" d="M1010 320 C1040 365 1055 435 1090 465"/>
+  <text class="s" x="700" y="615" text-anchor="middle">Pertemuan 5: mahasiswa membuat halaman web yang interaktif tanpa backend Node.js.</text>
+</svg>

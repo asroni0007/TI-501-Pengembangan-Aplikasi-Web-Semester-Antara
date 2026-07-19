@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620">
+  <defs><marker id="arr" markerWidth="12" markerHeight="12" refX="10" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#1f5f99"/></marker><style>.t{font:700 34px Arial;fill:#173b66}.h{font:700 22px Arial;fill:#173b66}.s{font:400 17px Arial;fill:#4b5a6a}.c1{fill:#f7f9fc;stroke:#1f5f99;stroke-width:4}.c2{fill:#fff6eb;stroke:#f28c28;stroke-width:4}.a{stroke:#1f5f99;stroke-width:7;fill:none;marker-end:url(#arr)}</style></defs>
+  <rect width="1200" height="620" fill="white"/><text class="t" x="600" y="65" text-anchor="middle">Pola Event Handling</text>
+  <circle class="c1" cx="270" cy="300" r="105"/><text class="h" x="270" y="288" text-anchor="middle">User Action</text><text class="s" x="270" y="325" text-anchor="middle">klik / ketik / submit</text>
+  <circle class="c2" cx="600" cy="300" r="105"/><text class="h" x="600" y="288" text-anchor="middle">Event Listener</text><text class="s" x="600" y="325" text-anchor="middle">addEventListener()</text>
+  <circle class="c1" cx="930" cy="300" r="105"/><text class="h" x="930" y="288" text-anchor="middle">Callback</text><text class="s" x="930" y="325" text-anchor="middle">ubah data / UI</text>
+  <path class="a" d="M375 300 H492"/><path class="a" d="M705 300 H822"/><path class="a" d="M902 408 C760 520 450 520 295 408"/>
+  <text class="s" x="600" y="565" text-anchor="middle">Event membuat halaman menjadi responsif terhadap tindakan pengguna.</text>
+</svg>
