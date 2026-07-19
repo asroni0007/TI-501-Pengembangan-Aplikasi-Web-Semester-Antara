@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600">
+<rect width="1000" height="600" fill="#f7fbff"/>
+<text x="500" y="55" text-anchor="middle" font-family="Arial" font-size="34" font-weight="700" fill="#173b66">CSS Box Model</text>
+<rect x="150" y="105" width="700" height="420" fill="#f7d7ad" stroke="#f28c28" stroke-width="4" rx="18"/>
+<text x="500" y="135" text-anchor="middle" font-family="Arial" font-size="22" font-weight="700" fill="#6b3b00">Margin</text>
+<rect x="225" y="170" width="550" height="300" fill="#d7ecff" stroke="#1f5f99" stroke-width="4" rx="14"/>
+<text x="500" y="205" text-anchor="middle" font-family="Arial" font-size="22" font-weight="700" fill="#173b66">Border</text>
+<rect x="295" y="235" width="410" height="190" fill="#e7f6eb" stroke="#119c6b" stroke-width="4" rx="10"/>
+<text x="500" y="270" text-anchor="middle" font-family="Arial" font-size="22" font-weight="700" fill="#0c6f4d">Padding</text>
+<rect x="385" y="300" width="230" height="80" fill="#ffffff" stroke="#6b7280" stroke-width="3" rx="8"/>
+<text x="500" y="350" text-anchor="middle" font-family="Arial" font-size="23" font-weight="700" fill="#333">Content</text>
+</svg>

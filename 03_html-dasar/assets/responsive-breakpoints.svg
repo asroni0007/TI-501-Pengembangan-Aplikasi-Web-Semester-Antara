@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600">
+<rect width="1200" height="600" fill="#f7fbff"/>
+<text x="600" y="55" text-anchor="middle" font-family="Arial" font-size="34" font-weight="700" fill="#173b66">Responsive Breakpoints</text>
+<rect x="80" y="155" width="260" height="230" rx="18" fill="white" stroke="#1f5f99" stroke-width="4"/>
+<text x="210" y="125" text-anchor="middle" font-family="Arial" font-size="23" font-weight="700" fill="#173b66">Mobile</text>
+<rect x="110" y="190" width="200" height="45" rx="8" fill="#d9eaff"/><rect x="110" y="250" width="200" height="45" rx="8" fill="#d9eaff"/><rect x="110" y="310" width="200" height="45" rx="8" fill="#d9eaff"/>
+<text x="210" y="430" text-anchor="middle" font-family="Arial" font-size="18" fill="#555">1 kolom</text>
+<rect x="470" y="135" width="280" height="270" rx="18" fill="white" stroke="#119c6b" stroke-width="4"/>
+<text x="610" y="105" text-anchor="middle" font-family="Arial" font-size="23" font-weight="700" fill="#0c6f4d">Tablet</text>
+<rect x="505" y="185" width="90" height="70" rx="8" fill="#d9f2e5"/><rect x="625" y="185" width="90" height="70" rx="8" fill="#d9f2e5"/><rect x="505" y="285" width="90" height="70" rx="8" fill="#d9f2e5"/><rect x="625" y="285" width="90" height="70" rx="8" fill="#d9f2e5"/>
+<text x="610" y="450" text-anchor="middle" font-family="Arial" font-size="18" fill="#555">2 kolom</text>
+<rect x="875" y="100" width="270" height="340" rx="18" fill="white" stroke="#f28c28" stroke-width="4"/>
+<text x="1010" y="70" text-anchor="middle" font-family="Arial" font-size="23" font-weight="700" fill="#6b3b00">Desktop</text>
+<rect x="905" y="160" width="60" height="70" rx="8" fill="#ffe3bd"/><rect x="985" y="160" width="60" height="70" rx="8" fill="#ffe3bd"/><rect x="1065" y="160" width="60" height="70" rx="8" fill="#ffe3bd"/>
+<rect x="905" y="265" width="60" height="70" rx="8" fill="#ffe3bd"/><rect x="985" y="265" width="60" height="70" rx="8" fill="#ffe3bd"/><rect x="1065" y="265" width="60" height="70" rx="8" fill="#ffe3bd"/>
+<text x="1010" y="485" text-anchor="middle" font-family="Arial" font-size="18" fill="#555">3 kolom</text>
+<text x="600" y="555" text-anchor="middle" font-family="Arial" font-size="21" fill="#173b66">Prinsip: mulai dari layar kecil, lalu tambah aturan saat ruang layar bertambah.</text>
+</svg>

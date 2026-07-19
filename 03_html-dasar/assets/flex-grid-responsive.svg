@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640">
+<rect width="1200" height="640" fill="white"/>
+<text x="600" y="60" text-anchor="middle" font-family="Arial" font-size="36" font-weight="700" fill="#173b66">Flexbox, Grid, dan Responsive Layout</text>
+<rect x="55" y="120" width="500" height="420" fill="#f7fbff" stroke="#1f5f99" stroke-width="4" rx="20"/>
+<text x="305" y="160" text-anchor="middle" font-family="Arial" font-size="28" font-weight="700" fill="#173b66">Flexbox</text>
+<text x="305" y="190" text-anchor="middle" font-family="Arial" font-size="18" fill="#516070">1 dimensi: baris atau kolom</text>
+<rect x="105" y="260" width="100" height="100" fill="#d9eaff" stroke="#1f5f99" stroke-width="3" rx="14"/>
+<rect x="250" y="260" width="100" height="100" fill="#d9eaff" stroke="#1f5f99" stroke-width="3" rx="14"/>
+<rect x="395" y="260" width="100" height="100" fill="#d9eaff" stroke="#1f5f99" stroke-width="3" rx="14"/>
+<line x1="110" y1="405" x2="495" y2="405" stroke="#f28c28" stroke-width="8" marker-end="url(#arrow)"/>
+<text x="305" y="455" text-anchor="middle" font-family="Arial" font-size="20" fill="#555">justify-content • align-items • gap</text>
+<rect x="645" y="120" width="500" height="420" fill="#fff8ef" stroke="#f28c28" stroke-width="4" rx="20"/>
+<text x="895" y="160" text-anchor="middle" font-family="Arial" font-size="28" font-weight="700" fill="#6b3b00">CSS Grid</text>
+<text x="895" y="190" text-anchor="middle" font-family="Arial" font-size="18" fill="#516070">2 dimensi: baris dan kolom</text>
+<g stroke="#f28c28" stroke-width="3" fill="#ffe3bd">
+<rect x="715" y="240" width="110" height="80" rx="10"/><rect x="845" y="240" width="110" height="80" rx="10"/><rect x="975" y="240" width="110" height="80" rx="10"/>
+<rect x="715" y="340" width="110" height="80" rx="10"/><rect x="845" y="340" width="110" height="80" rx="10"/><rect x="975" y="340" width="110" height="80" rx="10"/>
+</g>
+<text x="895" y="475" text-anchor="middle" font-family="Arial" font-size="20" fill="#555">grid-template-columns • minmax • gap</text>
+<defs><marker id="arrow" markerWidth="16" markerHeight="16" refX="13" refY="6" orient="auto"><path d="M0,0 L14,6 L0,12 Z" fill="#f28c28"/></marker></defs>
+</svg>

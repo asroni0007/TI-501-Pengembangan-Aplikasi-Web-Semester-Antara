@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Asisten AI untuk UMKM</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#">Asisten AI UMKM</a>
+    <nav class="nav" aria-label="Navigasi utama">
+      <a href="#fitur">Fitur</a>
+      <a href="#alur">Alur</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">Prototipe Pertemuan 3</p>
+        <h1>Bantu UMKM membuat deskripsi produk dengan lebih cepat.</h1>
+        <p>
+          Halaman ini melanjutkan struktur HTML semantik dari Pertemuan 2 dan
+          menambahkan CSS3 layout responsif menggunakan box model, Flexbox, Grid,
+          serta media query.
+        </p>
+        <a class="button" href="#fitur">Lihat Fitur</a>
+      </div>
+      <div class="hero-card" aria-label="Contoh kartu promosi produk">
+        <span class="badge">AI Ready</span>
+        <h2>Kopi Robusta Lokal</h2>
+        <p>Aroma kuat, cocok untuk pasar anak muda dan pekerja kreatif.</p>
+      </div>
+    </section>
+
+    <section id="fitur" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Fitur Utama</p>
+        <h2>Layout responsif dengan CSS Grid</h2>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card">
+          <h3>Deskripsi Produk</h3>
+          <p>Membantu membuat teks promosi yang lebih jelas dan menarik.</p>
+        </article>
+        <article class="feature-card">
+          <h3>Caption Media Sosial</h3>
+          <p>Menyusun caption singkat untuk promosi Instagram dan WhatsApp.</p>
+        </article>
+        <article class="feature-card">
+          <h3>Ide Konten</h3>
+          <p>Memberi inspirasi konten sederhana untuk pelaku usaha kecil.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="alur" class="section split">
+      <div>
+        <p class="eyebrow">Alur Penggunaan</p>
+        <h2>Form sederhana untuk kebutuhan UMKM</h2>
+        <p>Pengguna mengisi nama produk, target pasar, dan gaya bahasa. Backend AI akan dipelajari pada pertemuan berikutnya.</p>
+      </div>
+      <form class="form-card" aria-label="Form contoh kebutuhan produk">
+        <label for="produk">Nama Produk</label>
+        <input id="produk" name="produk" type="text" placeholder="Contoh: Keripik Pisang Cokelat" />
+
+        <label for="target">Target Pasar</label>
+        <select id="target" name="target">
+          <option>Anak muda</option>
+          <option>Keluarga</option>
+          <option>Wisatawan</option>
+        </select>
+
+        <label for="catatan">Catatan</label>
+        <textarea id="catatan" name="catatan" rows="4" placeholder="Tulis keunggulan produk..."></textarea>
+
+        <button type="submit">Buat Draft Promosi</button>
+      </form>
+    </section>
+  </main>
+
+  <footer id="kontak" class="site-footer">
+    <p>&copy; 2026 TI-501 Pengembangan Aplikasi Web</p>
+  </footer>
+</body>
+</html>
