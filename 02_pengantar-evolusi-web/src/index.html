@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Asisten AI untuk UMKM</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>Asisten AI untuk UMKM</h1>
+    <p>Membantu pelaku UMKM menyusun ide promosi, deskripsi produk, dan strategi digital.</p>
+  </header>
+
+  <nav class="site-nav" aria-label="Navigasi utama">
+    <a href="#layanan">Layanan</a>
+    <a href="#artikel">Artikel</a>
+    <a href="#konsultasi">Konsultasi</a>
+  </nav>
+
+  <main>
+    <section id="layanan" aria-labelledby="judul-layanan">
+      <h2 id="judul-layanan">Layanan Utama</h2>
+      <p>Halaman ini adalah fondasi HTML untuk proyek semester. Fokus pertemuan ini adalah struktur, makna, dan aksesibilitas dasar.</p>
+      <ul>
+        <li>Membuat ide konten promosi.</li>
+        <li>Menyusun deskripsi produk.</li>
+        <li>Membantu merumuskan masalah usaha.</li>
+      </ul>
+    </section>
+
+    <article id="artikel" aria-labelledby="judul-artikel">
+      <h2 id="judul-artikel">Tips Singkat Digitalisasi UMKM</h2>
+      <p>Mulailah dari mengenali pelanggan, merapikan katalog, dan membuat pesan promosi yang mudah dipahami.</p>
+    </article>
+
+    <section id="konsultasi" aria-labelledby="judul-konsultasi">
+      <h2 id="judul-konsultasi">Form Konsultasi UMKM</h2>
+      <p id="instruksi-form">Field bertanda * wajib diisi. Jelaskan masalah usaha secara singkat dan jelas.</p>
+
+      <form action="#" method="post" aria-describedby="instruksi-form">
+        <div class="form-group">
+          <label for="nama-umkm">Nama UMKM *</label>
+          <input type="text" id="nama-umkm" name="nama_umkm" required>
+        </div>
+
+        <div class="form-group">
+          <label for="kategori">Kategori Usaha *</label>
+          <select id="kategori" name="kategori" required>
+            <option value="">Pilih kategori</option>
+            <option value="kuliner">Kuliner</option>
+            <option value="fashion">Fashion</option>
+            <option value="jasa">Jasa</option>
+            <option value="lainnya">Lainnya</option>
+          </select>
+        </div>
+
+        <fieldset>
+          <legend>Skala Usaha *</legend>
+          <input type="radio" id="mikro" name="skala" value="mikro" required>
+          <label for="mikro">Mikro</label>
+          <input type="radio" id="kecil" name="skala" value="kecil">
+          <label for="kecil">Kecil</label>
+        </fieldset>
+
+        <div class="form-group">
+          <label for="masalah">Masalah yang ingin dibantu AI *</label>
+          <textarea id="masalah" name="masalah" rows="5" required></textarea>
+        </div>
+
+        <button type="submit">Kirim Konsultasi</button>
+      </form>
+    </section>
+  </main>
+
+  <aside class="catatan">
+    <h2>Catatan Etis</h2>
+    <p>AI dapat membantu menyusun ide, tetapi hasilnya tetap perlu diperiksa manusia agar akurat, sopan, dan bertanggung jawab.</p>
+  </aside>
+
+  <footer>
+    <p>&copy; 2026 TI-501 Pengembangan Aplikasi Web — Teknologi Informasi UMY</p>
+  </footer>
+</body>
+</html>

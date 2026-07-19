@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #24364b;
+  background: #f7fafc;
+}
+.site-header,
+footer {
+  background: #163b66;
+  color: white;
+  padding: 24px;
+  text-align: center;
+}
+.site-nav {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  padding: 12px;
+  background: #eaf3ff;
+}
+.site-nav a {
+  color: #163b66;
+  font-weight: bold;
+}
+main,
+.catatan {
+  max-width: 920px;
+  margin: 24px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+}
+.form-group {
+  margin-bottom: 16px;
+}
+label,
+legend {
+  font-weight: bold;
+}
+input,
+select,
+textarea,
+button {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 6px;
+  padding: 10px;
+  font-size: 1rem;
+}
+fieldset {
+  margin: 16px 0;
+  border: 1px solid #b8c7d9;
+  border-radius: 8px;
+}
+fieldset input,
+fieldset label {
+  display: inline-block;
+  width: auto;
+  margin-right: 8px;
+}
+button {
+  background: #f28c28;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 8px;
+}
+button:focus,
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+  outline: 3px solid #1f5f99;
+  outline-offset: 2px;
+}

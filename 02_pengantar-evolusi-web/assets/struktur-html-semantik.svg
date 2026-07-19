@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <rect width="1200" height="700" fill="#f7fafc"/>
+  <text x="600" y="58" text-anchor="middle" font-family="Arial" font-size="34" font-weight="700" fill="#163b66">Struktur HTML Semantik</text>
+  <rect x="190" y="110" width="820" height="75" rx="18" fill="#eaf3ff" stroke="#1f5f99" stroke-width="4"/>
+  <text x="600" y="158" text-anchor="middle" font-family="Arial" font-size="26" font-weight="700" fill="#1f5f99">&lt;header&gt;</text>
+  <rect x="190" y="205" width="820" height="60" rx="16" fill="#e8fbfb" stroke="#3ca3b7" stroke-width="4"/>
+  <text x="600" y="244" text-anchor="middle" font-family="Arial" font-size="24" font-weight="700" fill="#238d9d">&lt;nav&gt;</text>
+  <rect x="190" y="285" width="540" height="215" rx="18" fill="#fff7e8" stroke="#f28c28" stroke-width="4"/>
+  <text x="460" y="330" text-anchor="middle" font-family="Arial" font-size="24" font-weight="700" fill="#c96f17">&lt;main&gt;</text>
+  <rect x="225" y="355" width="470" height="55" rx="12" fill="#ffffff" stroke="#f28c28" stroke-width="3"/>
+  <text x="460" y="392" text-anchor="middle" font-family="Arial" font-size="22" fill="#c96f17">&lt;section&gt;</text>
+  <rect x="225" y="425" width="470" height="55" rx="12" fill="#ffffff" stroke="#f28c28" stroke-width="3"/>
+  <text x="460" y="462" text-anchor="middle" font-family="Arial" font-size="22" fill="#c96f17">&lt;article&gt;</text>
+  <rect x="760" y="285" width="250" height="215" rx="18" fill="#eefaf4" stroke="#1f8a70" stroke-width="4"/>
+  <text x="885" y="400" text-anchor="middle" font-family="Arial" font-size="24" font-weight="700" fill="#1f8a70">&lt;aside&gt;</text>
+  <rect x="190" y="525" width="820" height="75" rx="18" fill="#eaf3ff" stroke="#1f5f99" stroke-width="4"/>
+  <text x="600" y="573" text-anchor="middle" font-family="Arial" font-size="26" font-weight="700" fill="#1f5f99">&lt;footer&gt;</text>
+</svg>
