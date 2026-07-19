@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prototype Low-Fidelity Asisten AI UMKM</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <strong>Asisten AI UMKM</strong>
+    <nav aria-label="Navigasi utama">
+      <a href="#beranda">Beranda</a>
+      <a href="#form">Form</a>
+      <a href="#hasil">Hasil</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="beranda" class="screen">
+      <p class="label">Halaman 1</p>
+      <h1>Buat caption promosi produk dengan bantuan AI</h1>
+      <p>Prototype low-fidelity untuk menggambarkan alur pengguna.</p>
+      <a class="button" href="#form">Mulai</a>
+    </section>
+
+    <section id="form" class="screen">
+      <p class="label">Halaman 2</p>
+      <h2>Data Produk</h2>
+      <label>Nama produk <input type="text" placeholder="Contoh: Kopi Susu Aren" /></label>
+      <label>Keunggulan <textarea placeholder="Tulis keunggulan produk"></textarea></label>
+      <a class="button" href="#hasil">Generate Caption</a>
+    </section>
+
+    <section id="hasil" class="screen">
+      <p class="label">Halaman 3</p>
+      <h2>Hasil Caption</h2>
+      <article class="result">Caption AI akan ditampilkan di area ini.</article>
+      <a class="button secondary" href="#form">Edit Input</a>
+      <button class="button" type="button">Salin Caption</button>
+    </section>
+  </main>
+</body>
+</html>
