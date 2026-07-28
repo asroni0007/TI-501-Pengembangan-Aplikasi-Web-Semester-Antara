@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="540" viewBox="0 0 1100 540">
+  <rect width="1100" height="540" fill="#f3f7fb"/>
+  <text x="550" y="52" font-family="Arial" font-size="34" font-weight="700" fill="#24466e" text-anchor="middle">Bobot Penilaian UAS</text>
+  <g font-family="Arial">
+    <rect x="160" y="115" width="780" height="58" rx="14" fill="#eaf1fa" stroke="#24466e" stroke-width="2"/><rect x="160" y="115" width="273" height="58" rx="14" fill="#24466e"/><text x="184" y="151" font-size="19" font-weight="700" fill="#ffffff">Implementasi fitur</text><text x="888" y="151" font-size="20" font-weight="700" fill="#24466e" text-anchor="end">35%</text>
+    <rect x="160" y="195" width="780" height="58" rx="14" fill="#fff6d8" stroke="#fdbf0e" stroke-width="2"/><rect x="160" y="195" width="195" height="58" rx="14" fill="#fdbf0e"/><text x="184" y="231" font-size="19" font-weight="700" fill="#1f334f">Demo &amp; alur pengguna</text><text x="888" y="231" font-size="20" font-weight="700" fill="#24466e" text-anchor="end">25%</text>
+    <rect x="160" y="275" width="780" height="58" rx="14" fill="#edf8f2" stroke="#0f7a48" stroke-width="2"/><rect x="160" y="275" width="156" height="58" rx="14" fill="#0f7a48"/><text x="184" y="311" font-size="19" font-weight="700" fill="#ffffff">Dokumentasi &amp; test</text><text x="888" y="311" font-size="20" font-weight="700" fill="#24466e" text-anchor="end">20%</text>
+    <rect x="160" y="355" width="780" height="58" rx="14" fill="#fdebed" stroke="#a41d1f" stroke-width="2"/><rect x="160" y="355" width="117" height="58" rx="14" fill="#a41d1f"/><text x="184" y="391" font-size="19" font-weight="700" fill="#ffffff">Presentasi &amp; kontribusi</text><text x="888" y="391" font-size="20" font-weight="700" fill="#24466e" text-anchor="end">15%</text>
+    <rect x="160" y="435" width="780" height="58" rx="14" fill="#ffffff" stroke="#c7d3e0" stroke-width="2"/><rect x="160" y="435" width="39" height="58" rx="14" fill="#c7d3e0"/><text x="184" y="471" font-size="19" font-weight="700" fill="#24466e">Refleksi akhir</text><text x="888" y="471" font-size="20" font-weight="700" fill="#24466e" text-anchor="end">5%</text>
+  </g>
+</svg>

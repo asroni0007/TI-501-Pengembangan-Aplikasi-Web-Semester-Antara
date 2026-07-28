@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="540" viewBox="0 0 1000 540">
+  <rect width="1000" height="540" fill="#f3f7fb"/>
+  <text x="500" y="48" font-family="Arial" font-size="31" font-weight="700" fill="#24466e" text-anchor="middle">Client-Server vs dApp / Smart Contract</text>
+  <g font-family="Arial" text-anchor="middle">
+    <rect x="70" y="115" width="390" height="330" rx="24" fill="#ffffff" stroke="#c7d3e0" stroke-width="2"/>
+    <text x="265" y="155" font-size="25" font-weight="700" fill="#24466e">Client-Server</text>
+    <rect x="115" y="205" width="120" height="60" rx="14" fill="#eaf1fa" stroke="#24466e" stroke-width="3"/><text x="175" y="241" font-size="16" font-weight="700" fill="#24466e">Client</text>
+    <rect x="300" y="205" width="120" height="60" rx="14" fill="#fff6d8" stroke="#fdbf0e" stroke-width="3"/><text x="360" y="241" font-size="16" font-weight="700" fill="#24466e">Server</text>
+    <rect x="300" y="315" width="120" height="60" rx="14" fill="#edf8f2" stroke="#0f7a48" stroke-width="3"/><text x="360" y="351" font-size="16" font-weight="700" fill="#24466e">Database</text>
+    <path d="M235 235 H292" stroke="#24466e" stroke-width="4" fill="none"/><path d="M272 219 L292 235 L272 251" stroke="#24466e" stroke-width="4" fill="none"/>
+    <path d="M360 265 V306" stroke="#24466e" stroke-width="4" fill="none"/><path d="M344 286 L360 306 L376 286" stroke="#24466e" stroke-width="4" fill="none"/>
+    <rect x="540" y="115" width="390" height="330" rx="24" fill="#ffffff" stroke="#c7d3e0" stroke-width="2"/>
+    <text x="735" y="155" font-size="25" font-weight="700" fill="#24466e">dApp / Web3</text>
+    <rect x="585" y="205" width="130" height="60" rx="14" fill="#eaf1fa" stroke="#24466e" stroke-width="3"/><text x="650" y="241" font-size="16" font-weight="700" fill="#24466e">Frontend</text>
+    <rect x="765" y="205" width="130" height="60" rx="14" fill="#fdebed" stroke="#a41d1f" stroke-width="3"/><text x="830" y="241" font-size="16" font-weight="700" fill="#24466e">Wallet</text>
+    <rect x="635" y="315" width="200" height="60" rx="14" fill="#fff6d8" stroke="#fdbf0e" stroke-width="3"/><text x="735" y="351" font-size="16" font-weight="700" fill="#24466e">Smart Contract</text>
+    <path d="M715 235 H757" stroke="#24466e" stroke-width="4" fill="none"/><path d="M737 219 L757 235 L737 251" stroke="#24466e" stroke-width="4" fill="none"/>
+    <path d="M830 265 C820 305 795 325 835 345" stroke="#24466e" stroke-width="4" fill="none"/>
+    <path d="M660 265 C650 305 675 325 635 345" stroke="#24466e" stroke-width="4" fill="none"/>
+  </g>
+</svg>

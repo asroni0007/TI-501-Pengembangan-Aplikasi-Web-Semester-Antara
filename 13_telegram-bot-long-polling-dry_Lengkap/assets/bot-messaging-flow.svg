@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="460" viewBox="0 0 1000 460">
+  <rect width="1000" height="460" fill="#f3f7fb"/>
+  <text x="500" y="46" font-family="Arial" font-size="28" font-weight="700" fill="#24466e" text-anchor="middle">Alur Bot Messaging</text>
+  <g font-family="Arial" text-anchor="middle">
+    <rect x="75" y="130" width="170" height="92" rx="18" fill="#eaf1fa" stroke="#24466e" stroke-width="3"/>
+    <text x="160" y="164" font-size="22" font-weight="700" fill="#24466e">Pengguna</text>
+    <text x="160" y="194" font-size="15" fill="#5e6b7a">kirim pesan</text>
+    <rect x="310" y="130" width="170" height="92" rx="18" fill="#fff6d8" stroke="#fdbf0e" stroke-width="3"/>
+    <text x="395" y="164" font-size="22" font-weight="700" fill="#24466e">Telegram</text>
+    <text x="395" y="194" font-size="15" fill="#5e6b7a">Bot API</text>
+    <rect x="545" y="130" width="170" height="92" rx="18" fill="#edf8f2" stroke="#0f7a48" stroke-width="3"/>
+    <text x="630" y="164" font-size="22" font-weight="700" fill="#24466e">Node.js</text>
+    <text x="630" y="194" font-size="15" fill="#5e6b7a">handler bot</text>
+    <rect x="780" y="130" width="170" height="92" rx="18" fill="#fdebed" stroke="#a41d1f" stroke-width="3"/>
+    <text x="865" y="164" font-size="22" font-weight="700" fill="#24466e">Service</text>
+    <text x="865" y="194" font-size="15" fill="#5e6b7a">logic UMKM</text>
+  </g>
+  <g stroke="#24466e" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M245 176 H302"/><path d="M282 158 L302 176 L282 194"/>
+    <path d="M480 176 H537"/><path d="M517 158 L537 176 L517 194"/>
+    <path d="M715 176 H772"/><path d="M752 158 L772 176 L752 194"/>
+    <path d="M865 222 C865 318 160 318 160 222"/><path d="M178 241 L160 222 L142 241"/>
+  </g>
+  <rect x="120" y="345" width="760" height="58" rx="16" fill="#ffffff" stroke="#c7d3e0"/>
+  <text x="500" y="380" font-family="Arial" font-size="17" font-weight="700" fill="#24466e" text-anchor="middle">Bot menerjemahkan pesan pengguna menjadi aksi aplikasi, lalu mengirim jawaban kembali melalui Telegram.</text>
+</svg>

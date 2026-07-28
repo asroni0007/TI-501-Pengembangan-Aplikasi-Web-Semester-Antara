@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="540" viewBox="0 0 1000 540">
+  <rect width="1000" height="540" fill="#f3f7fb"/>
+  <text x="500" y="48" font-family="Arial" font-size="32" font-weight="700" fill="#24466e" text-anchor="middle">Piramida Pengujian Aplikasi Web</text>
+  <polygon points="250,455 750,455 655,335 345,335" fill="#edf8f2" stroke="#0f7a48" stroke-width="3"/>
+  <polygon points="345,335 655,335 585,230 415,230" fill="#fff6d8" stroke="#fdbf0e" stroke-width="3"/>
+  <polygon points="415,230 585,230 530,135 470,135" fill="#fdebed" stroke="#a41d1f" stroke-width="3"/>
+  <text x="500" y="398" font-family="Arial" font-size="28" font-weight="700" fill="#24466e" text-anchor="middle">Unit / Service Test</text>
+  <text x="500" y="295" font-family="Arial" font-size="25" font-weight="700" fill="#24466e" text-anchor="middle">Integration / API Test</text>
+  <text x="500" y="195" font-family="Arial" font-size="23" font-weight="700" fill="#24466e" text-anchor="middle">End-to-End</text>
+  <text x="220" y="492" font-family="Arial" font-size="18" fill="#5e6b7a">Banyak, cepat, murah</text>
+  <text x="675" y="150" font-family="Arial" font-size="18" fill="#5e6b7a">Sedikit, mahal, mendekati pengguna</text>
+</svg>

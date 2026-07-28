@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="520" viewBox="0 0 1000 520">
+  <rect width="1000" height="520" fill="#ffffff"/>
+  <text x="500" y="50" font-family="Arial" font-size="32" font-weight="700" fill="#24466e" text-anchor="middle">Checklist Sebelum Demo UAS</text>
+  <g font-family="Arial" font-size="22" fill="#202631">
+    <rect x="180" y="110" width="640" height="315" rx="24" fill="#f3f7fb" stroke="#c7d3e0"/>
+    <text x="245" y="170">✓ Fitur utama berjalan</text>
+    <text x="245" y="225">✓ Test otomatis lulus</text>
+    <text x="245" y="280">✓ README berisi setup dan endpoint</text>
+    <text x="245" y="335">✓ .env tidak masuk repository</text>
+    <text x="245" y="390">✓ Demo dan refleksi arsitektur siap</text>
+  </g>
+  <circle cx="205" cy="162" r="16" fill="#0f7a48"/><circle cx="205" cy="217" r="16" fill="#0f7a48"/><circle cx="205" cy="272" r="16" fill="#0f7a48"/><circle cx="205" cy="327" r="16" fill="#0f7a48"/><circle cx="205" cy="382" r="16" fill="#0f7a48"/>
+</svg>
