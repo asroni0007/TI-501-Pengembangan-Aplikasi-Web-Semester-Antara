@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520">
+  <rect width="1200" height="520" fill="#F3F7FB"/>
+  <text x="600" y="65" text-anchor="middle" font-family="Arial" font-size="36" fill="#24466E" font-weight="700">Matriks CPMK dan Materi UTS</text>
+  <g font-family="Arial" font-size="24">
+    <rect x="95" y="120" width="1000" height="70" fill="#24466E" rx="8"/><text x="170" y="165" fill="#fff" font-weight="700">CPMK</text><text x="420" y="165" fill="#fff" font-weight="700">Fokus</text><text x="850" y="165" fill="#fff" font-weight="700">Materi</text>
+    <rect x="95" y="200" width="1000" height="95" fill="#fff" stroke="#cbd6e2"/><text x="170" y="256" fill="#24466E" font-weight="700">51</text><text x="420" y="246" fill="#1F334F">Konsep web, HTML semantik, UI/UX</text><text x="850" y="246" fill="#1F334F">M1, M2, M4</text>
+    <rect x="95" y="305" width="1000" height="95" fill="#fff" stroke="#cbd6e2"/><text x="170" y="361" fill="#24466E" font-weight="700">52</text><text x="420" y="351" fill="#1F334F">CSS, JS, Node/Express, REST API</text><text x="850" y="351" fill="#1F334F">M3, M5, M6, M7</text>
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520">
+  <rect width="1200" height="520" fill="#ffffff"/>
+  <g font-family="Arial" font-size="24" font-weight="700" fill="#24466E">
+    <circle cx="170" cy="260" r="80" fill="#F3F7FB" stroke="#24466E" stroke-width="4"/><text x="170" y="252" text-anchor="middle">Baca</text><text x="170" y="284" text-anchor="middle">Soal</text>
+    <path d="M260 260 H390" stroke="#FDBF0E" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="500" cy="260" r="80" fill="#F3F7FB" stroke="#0F7A48" stroke-width="4"/><text x="500" y="252" text-anchor="middle">Rancang</text><text x="500" y="284" text-anchor="middle">Jawaban</text>
+    <path d="M590 260 H720" stroke="#FDBF0E" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="830" cy="260" r="80" fill="#F3F7FB" stroke="#24466E" stroke-width="4"/><text x="830" y="252" text-anchor="middle">Coding</text><text x="830" y="284" text-anchor="middle">& Uji</text>
+    <path d="M920 260 H1050" stroke="#FDBF0E" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="1120" cy="260" r="60" fill="#0F7A48"/><text x="1120" y="252" text-anchor="middle" fill="#fff">Kumpul</text><text x="1120" y="282" text-anchor="middle" fill="#fff">ZIP</text>
+  </g>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520">
+  <rect width="1200" height="520" fill="#F3F7FB"/>
+  <rect x="60" y="60" width="1080" height="90" rx="20" fill="#24466E"/>
+  <text x="600" y="116" text-anchor="middle" font-family="Arial" font-size="38" fill="#fff" font-weight="700">Blueprint UTS TI-501</text>
+  <g font-family="Arial" font-size="26" font-weight="700">
+    <rect x="90" y="215" width="220" height="120" rx="18" fill="#fff" stroke="#cbd6e2"/>
+    <text x="200" y="265" text-anchor="middle" fill="#24466E">Konsep</text><text x="200" y="304" text-anchor="middle" fill="#0F7A48">20%</text>
+    <rect x="350" y="215" width="220" height="120" rx="18" fill="#fff" stroke="#cbd6e2"/>
+    <text x="460" y="265" text-anchor="middle" fill="#24466E">Debugging</text><text x="460" y="304" text-anchor="middle" fill="#0F7A48">25%</text>
+    <rect x="610" y="215" width="220" height="120" rx="18" fill="#fff" stroke="#cbd6e2"/>
+    <text x="720" y="265" text-anchor="middle" fill="#24466E">REST API</text><text x="720" y="304" text-anchor="middle" fill="#0F7A48">25%</text>
+    <rect x="870" y="215" width="220" height="120" rx="18" fill="#fff" stroke="#cbd6e2"/>
+    <text x="980" y="265" text-anchor="middle" fill="#24466E">Praktik</text><text x="980" y="304" text-anchor="middle" fill="#0F7A48">30%</text>
+  </g>
+  <text x="600" y="430" text-anchor="middle" font-family="Arial" font-size="28" fill="#1F334F">Cakupan: Pertemuan 1-7 · HTML/CSS · JS · Node/Express · REST API</text>
+</svg>

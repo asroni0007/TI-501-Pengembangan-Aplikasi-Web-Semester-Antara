@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UTS TI-501 - Asisten AI UMKM</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <p class="badge">UTS TI-501</p>
+    <h1>Katalog Produk UMKM</h1>
+    <p>Starter frontend untuk menguji Fetch API dan REST API sederhana.</p>
+  </header>
+
+  <main class="container">
+    <section class="panel" aria-labelledby="judul-form">
+      <h2 id="judul-form">Tambah Produk</h2>
+      <form id="form-produk">
+        <label>Nama Produk <input type="text" id="nama" required></label>
+        <label>Kategori <input type="text" id="kategori" required></label>
+        <label>Harga <input type="number" id="harga" min="1" required></label>
+        <label>Stok <input type="number" id="stok" min="0" required></label>
+        <label>Deskripsi <textarea id="deskripsi" rows="3"></textarea></label>
+        <button type="submit">Simpan Produk</button>
+      </form>
+      <p id="pesan" class="pesan" role="status"></p>
+    </section>
+
+    <section class="panel" aria-labelledby="judul-daftar">
+      <h2 id="judul-daftar">Daftar Produk</h2>
+      <div id="daftar-produk" class="grid-produk"></div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
