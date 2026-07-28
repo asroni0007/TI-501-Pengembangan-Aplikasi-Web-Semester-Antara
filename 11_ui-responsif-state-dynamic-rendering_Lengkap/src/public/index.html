@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Asisten AI UMKM - Pertemuan 11</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div>
+      <p class="eyebrow">TI-501 · Pertemuan 11</p>
+      <h1>Dashboard Asisten AI untuk UMKM</h1>
+      <p class="subtitle">UI responsif, state sederhana, dynamic rendering, kartu, dan badge.</p>
+    </div>
+    <button class="menu-button" id="menuButton" aria-label="Buka menu">☰</button>
+  </header>
+
+  <nav class="nav" id="mainNav">
+    <button class="nav-link active" data-view="produk">Produk</button>
+    <button class="nav-link" data-view="konten">Konten AI</button>
+    <button class="nav-link" data-view="laporan">Ringkasan</button>
+  </nav>
+
+  <main class="container">
+    <section class="toolbar">
+      <input id="searchInput" type="search" placeholder="Cari produk atau konten..." />
+      <select id="statusFilter">
+        <option value="semua">Semua status</option>
+        <option value="aktif">Aktif</option>
+        <option value="draft">Draft</option>
+        <option value="arsip">Arsip</option>
+        <option value="siap">Siap</option>
+      </select>
+      <button id="resetButton" class="secondary-button">Reset</button>
+    </section>
+
+    <section id="summary" class="summary-grid"></section>
+    <section id="content" class="content-grid"></section>
+  </main>
+
+  <template id="emptyTemplate">
+    <div class="empty-state">
+      <h2>Data tidak ditemukan</h2>
+      <p>Coba ubah kata kunci pencarian atau filter status.</p>
+    </div>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+</html>

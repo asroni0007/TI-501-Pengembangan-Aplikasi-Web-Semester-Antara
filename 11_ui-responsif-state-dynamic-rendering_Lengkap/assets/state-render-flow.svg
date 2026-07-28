@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="460" viewBox="0 0 1000 460">
+  <rect width="1000" height="460" fill="#f3f7fb"/>
+  <text x="500" y="44" font-family="Arial" font-size="28" font-weight="700" fill="#24466e" text-anchor="middle">Alur State dan Dynamic Rendering</text>
+  <g font-family="Arial" text-anchor="middle">
+    <rect x="70" y="135" width="165" height="92" rx="18" fill="#eaf1fa" stroke="#24466e" stroke-width="3"/>
+    <text x="152" y="168" font-size="21" font-weight="700" fill="#24466e">Event</text>
+    <text x="152" y="196" font-size="15" fill="#5e6b7a">klik, cari, filter</text>
+    <rect x="300" y="135" width="165" height="92" rx="18" fill="#fff6d8" stroke="#fdbf0e" stroke-width="3"/>
+    <text x="382" y="168" font-size="21" font-weight="700" fill="#24466e">Update State</text>
+    <text x="382" y="196" font-size="15" fill="#5e6b7a">query, status, data</text>
+    <rect x="535" y="135" width="165" height="92" rx="18" fill="#edf8f2" stroke="#0f7a48" stroke-width="3"/>
+    <text x="618" y="168" font-size="21" font-weight="700" fill="#24466e">Render</text>
+    <text x="618" y="196" font-size="15" fill="#5e6b7a">template HTML</text>
+    <rect x="770" y="135" width="165" height="92" rx="18" fill="#fdebed" stroke="#a41d1f" stroke-width="3"/>
+    <text x="852" y="168" font-size="21" font-weight="700" fill="#24466e">UI Baru</text>
+    <text x="852" y="196" font-size="15" fill="#5e6b7a">kartu, badge, list</text>
+  </g>
+  <g stroke="#24466e" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M235 181 H292"/><path d="M272 163 L292 181 L272 199"/>
+    <path d="M465 181 H527"/><path d="M507 163 L527 181 L507 199"/>
+    <path d="M700 181 H762"/><path d="M742 163 L762 181 L742 199"/>
+  </g>
+  <rect x="120" y="310" width="760" height="72" rx="18" fill="#ffffff" stroke="#c7d3e0"/>
+  <text x="500" y="338" font-family="Arial" font-size="18" font-weight="700" fill="#24466e" text-anchor="middle">Satu sumber kebenaran: state</text>
+  <text x="500" y="364" font-family="Arial" font-size="16" fill="#5e6b7a" text-anchor="middle">UI tidak diubah manual satu per satu; UI digambar ulang berdasarkan data dan state terbaru.</text>
+</svg>

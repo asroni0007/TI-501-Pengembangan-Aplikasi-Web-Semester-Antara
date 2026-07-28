@@ -1,0 +1,18 @@
+{
+  "name": "ti501-pertemuan10-api-generatif-llm",
+  "version": "1.0.0",
+  "description": "Pertemuan 10 TI-501 - Integrasi API Generatif/LLM untuk Asisten AI UMKM",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "mysql2": "^3.9.2",
+    "openai": "^4.91.1"
+  }
+}

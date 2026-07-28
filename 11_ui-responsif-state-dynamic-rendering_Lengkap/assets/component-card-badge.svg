@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="460" viewBox="0 0 1000 460">
+  <rect width="1000" height="460" fill="#f3f7fb"/>
+  <text x="500" y="44" font-family="Arial" font-size="28" font-weight="700" fill="#24466e" text-anchor="middle">Komponen Berbasis Data</text>
+  <g font-family="Arial">
+    <rect x="120" y="105" width="330" height="235" rx="24" fill="#ffffff" stroke="#c7d3e0"/>
+    <rect x="145" y="130" width="80" height="32" rx="16" fill="#edf8f2"/>
+    <text x="185" y="151" font-size="13" fill="#0f7a48" font-weight="700" text-anchor="middle">Aktif</text>
+    <text x="145" y="200" font-size="24" fill="#24466e" font-weight="700">Kopi Arabika</text>
+    <text x="145" y="232" font-size="16" fill="#5e6b7a">Kategori: Minuman</text>
+    <text x="145" y="262" font-size="16" fill="#5e6b7a">Harga: Rp25.000</text>
+    <rect x="145" y="292" width="145" height="34" rx="12" fill="#24466e"/>
+    <text x="217" y="315" font-size="14" fill="#ffffff" font-weight="700" text-anchor="middle">Lihat Konten</text>
+    <rect x="550" y="105" width="330" height="235" rx="24" fill="#ffffff" stroke="#c7d3e0"/>
+    <rect x="575" y="130" width="110" height="32" rx="16" fill="#fff6d8"/>
+    <text x="630" y="151" font-size="13" fill="#8a6200" font-weight="700" text-anchor="middle">Draft AI</text>
+    <text x="575" y="200" font-size="24" fill="#24466e" font-weight="700">Caption IG</text>
+    <text x="575" y="232" font-size="16" fill="#5e6b7a">Kanal: Instagram</text>
+    <text x="575" y="262" font-size="16" fill="#5e6b7a">Gaya: ramah dan santai</text>
+    <rect x="575" y="292" width="145" height="34" rx="12" fill="#0f7a48"/>
+    <text x="648" y="315" font-size="14" fill="#ffffff" font-weight="700" text-anchor="middle">Gunakan</text>
+  </g>
+  <text x="500" y="407" font-family="Arial" font-size="17" font-weight="700" fill="#24466e" text-anchor="middle">Data berbeda dapat menghasilkan komponen UI yang sama dengan isi dan badge berbeda.</text>
+</svg>

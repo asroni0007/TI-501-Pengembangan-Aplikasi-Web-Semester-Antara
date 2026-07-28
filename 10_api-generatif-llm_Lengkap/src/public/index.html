@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Asisten AI untuk UMKM</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app-shell">
+    <section class="hero">
+      <p class="badge">TI-501 · Pertemuan 10</p>
+      <h1>Asisten AI untuk UMKM</h1>
+      <p>Buat caption promosi produk menggunakan backend Express, MySQL, dan API Generatif/LLM.</p>
+    </section>
+
+    <section class="panel">
+      <h2>Generate Konten Promosi</h2>
+      <form id="form-ai">
+        <label for="produk">Produk</label>
+        <select id="produk" name="produk_id" required></select>
+
+        <label for="gaya">Gaya Promosi</label>
+        <input id="gaya" name="gaya" placeholder="contoh: ramah, lucu, profesional" value="ramah dan persuasif" required />
+
+        <label for="kanal">Kanal</label>
+        <input id="kanal" name="kanal" placeholder="Instagram, WhatsApp, Marketplace" value="Instagram" required />
+
+        <button type="submit">Generate Konten AI</button>
+      </form>
+    </section>
+
+    <section class="panel output">
+      <div class="output-head">
+        <h2>Hasil AI</h2>
+        <span id="provider">Provider: -</span>
+      </div>
+      <pre id="hasil">Pilih produk lalu klik tombol generate.</pre>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

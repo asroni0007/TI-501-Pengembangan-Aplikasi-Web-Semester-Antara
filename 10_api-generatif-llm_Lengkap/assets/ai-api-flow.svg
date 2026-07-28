@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="430" viewBox="0 0 1000 430">
+  <rect width="1000" height="430" fill="#f3f7fb"/>
+  <text x="500" y="42" font-family="Arial" font-size="28" font-weight="700" fill="#24466e" text-anchor="middle">Alur Integrasi API Generatif Server-Side</text>
+  <g font-family="Arial" text-anchor="middle">
+    <rect x="55" y="130" width="160" height="92" rx="18" fill="#eaf1fa" stroke="#24466e" stroke-width="3"/>
+    <text x="135" y="165" font-size="22" font-weight="700" fill="#24466e">Frontend</text>
+    <text x="135" y="194" font-size="15" fill="#5e6b7a">Fetch request</text>
+    <rect x="285" y="130" width="170" height="92" rx="18" fill="#fff6d8" stroke="#fdbf0e" stroke-width="3"/>
+    <text x="370" y="165" font-size="22" font-weight="700" fill="#24466e">Express</text>
+    <text x="370" y="194" font-size="15" fill="#5e6b7a">Route API</text>
+    <rect x="525" y="130" width="170" height="92" rx="18" fill="#edf8f2" stroke="#0f7a48" stroke-width="3"/>
+    <text x="610" y="165" font-size="22" font-weight="700" fill="#24466e">AI Service</text>
+    <text x="610" y="194" font-size="15" fill="#5e6b7a">Prompt + key</text>
+    <rect x="775" y="130" width="170" height="92" rx="18" fill="#fdebed" stroke="#a41d1f" stroke-width="3"/>
+    <text x="860" y="165" font-size="22" font-weight="700" fill="#24466e">LLM API</text>
+    <text x="860" y="194" font-size="15" fill="#5e6b7a">Gemini/OpenAI</text>
+  </g>
+  <g stroke="#24466e" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M215 176 H275"/><path d="M255 158 L275 176 L255 194"/>
+    <path d="M455 176 H515"/><path d="M495 158 L515 176 L495 194"/>
+    <path d="M695 176 H765"/><path d="M745 158 L765 176 L745 194"/>
+  </g>
+  <rect x="135" y="300" width="730" height="64" rx="18" fill="#ffffff" stroke="#c7d3e0"/>
+  <text x="500" y="326" font-family="Arial" font-size="18" font-weight="700" fill="#24466e" text-anchor="middle">API key hanya berada di server</text>
+  <text x="500" y="350" font-family="Arial" font-size="16" fill="#5e6b7a" text-anchor="middle">Frontend menerima hasil JSON, bukan mengakses provider AI secara langsung</text>
+</svg>
