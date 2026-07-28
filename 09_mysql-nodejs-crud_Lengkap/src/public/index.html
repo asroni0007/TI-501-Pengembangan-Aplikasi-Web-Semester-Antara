@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Produk UMKM - MySQL CRUD</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <p class="badge">Pertemuan 9 · TI-501</p>
+    <h1>CRUD Produk UMKM</h1>
+    <p>Frontend sederhana untuk menguji integrasi Express.js, MySQL, dan Fetch API.</p>
+  </header>
+
+  <main class="layout">
+    <section class="panel">
+      <h2>Tambah Produk</h2>
+      <form id="form-produk">
+        <label>Kategori
+          <select id="kategori_id" required></select>
+        </label>
+        <label>Nama Produk
+          <input id="nama" type="text" minlength="3" required placeholder="Contoh: Brownies Mini">
+        </label>
+        <label>Harga
+          <input id="harga" type="number" min="1" required placeholder="25000">
+        </label>
+        <label>Stok
+          <input id="stok" type="number" min="0" required placeholder="10">
+        </label>
+        <label>Deskripsi
+          <textarea id="deskripsi" rows="3" placeholder="Deskripsi singkat produk"></textarea>
+        </label>
+        <button type="submit">Simpan ke MySQL</button>
+      </form>
+      <p id="pesan" role="status"></p>
+    </section>
+
+    <section class="panel daftar-panel">
+      <div class="section-heading">
+        <h2>Data Produk</h2>
+        <button id="muat-ulang" type="button">Muat Ulang</button>
+      </div>
+      <div id="daftar-produk" class="grid-produk"></div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

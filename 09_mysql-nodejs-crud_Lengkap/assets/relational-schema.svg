@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="460" viewBox="0 0 1000 460">
+  <rect width="1000" height="460" fill="#f3f7fb"/>
+  <text x="500" y="45" font-family="Arial" font-size="28" font-weight="700" fill="#24466e" text-anchor="middle">Skema Relasional Produk UMKM</text>
+  <rect x="80" y="105" width="270" height="260" rx="14" fill="#ffffff" stroke="#24466e" stroke-width="3"/>
+  <rect x="80" y="105" width="270" height="52" rx="14" fill="#24466e"/>
+  <text x="215" y="140" font-family="Arial" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">kategori</text>
+  <text x="105" y="195" font-family="Arial" font-size="18" fill="#202631">PK id</text>
+  <text x="105" y="230" font-family="Arial" font-size="18" fill="#202631">nama</text>
+  <text x="105" y="265" font-family="Arial" font-size="18" fill="#202631">deskripsi</text>
+  <text x="105" y="300" font-family="Arial" font-size="18" fill="#202631">created_at</text>
+  <rect x="650" y="105" width="270" height="300" rx="14" fill="#ffffff" stroke="#0f7a48" stroke-width="3"/>
+  <rect x="650" y="105" width="270" height="52" rx="14" fill="#0f7a48"/>
+  <text x="785" y="140" font-family="Arial" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">produk</text>
+  <text x="675" y="195" font-family="Arial" font-size="18" fill="#202631">PK id</text>
+  <text x="675" y="230" font-family="Arial" font-size="18" fill="#202631">FK kategori_id</text>
+  <text x="675" y="265" font-family="Arial" font-size="18" fill="#202631">nama</text>
+  <text x="675" y="300" font-family="Arial" font-size="18" fill="#202631">harga, stok</text>
+  <text x="675" y="335" font-family="Arial" font-size="18" fill="#202631">deskripsi</text>
+  <text x="675" y="370" font-family="Arial" font-size="18" fill="#202631">created_at, updated_at</text>
+  <line x1="350" y1="232" x2="650" y2="232" stroke="#fdbf0e" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="380" cy="232" r="9" fill="#fdbf0e"/>
+  <path d="M620 210 L650 232 L620 254" fill="none" stroke="#fdbf0e" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="500" y="205" font-family="Arial" font-size="18" font-weight="700" fill="#24466e" text-anchor="middle">1 kategori memiliki banyak produk</text>
+  <text x="500" y="280" font-family="Arial" font-size="16" fill="#5e6b7a" text-anchor="middle">Foreign key menjaga data produk tetap konsisten</text>
+</svg>

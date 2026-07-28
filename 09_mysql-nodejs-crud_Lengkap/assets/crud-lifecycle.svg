@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="450" viewBox="0 0 1000 450">
+  <rect width="1000" height="450" fill="#f3f7fb"/>
+  <text x="500" y="42" text-anchor="middle" font-family="Arial" font-size="28" font-weight="700" fill="#24466e">Siklus CRUD Data Produk</text>
+  <g font-family="Arial" text-anchor="middle">
+    <circle cx="250" cy="145" r="70" fill="#24466e"/><text x="250" y="138" font-size="24" font-weight="700" fill="#ffffff">CREATE</text><text x="250" y="168" font-size="16" fill="#ffffff">INSERT</text>
+    <circle cx="750" cy="145" r="70" fill="#0f7a48"/><text x="750" y="138" font-size="24" font-weight="700" fill="#ffffff">READ</text><text x="750" y="168" font-size="16" fill="#ffffff">SELECT</text>
+    <circle cx="750" cy="325" r="70" fill="#fdbf0e"/><text x="750" y="318" font-size="24" font-weight="700" fill="#202631">UPDATE</text><text x="750" y="348" font-size="16" fill="#202631">UPDATE</text>
+    <circle cx="250" cy="325" r="70" fill="#a41d1f"/><text x="250" y="318" font-size="24" font-weight="700" fill="#ffffff">DELETE</text><text x="250" y="348" font-size="16" fill="#ffffff">DELETE</text>
+    <rect x="415" y="185" width="170" height="80" rx="20" fill="#ffffff" stroke="#c7d3e0" stroke-width="3"/><text x="500" y="220" font-size="22" font-weight="700" fill="#24466e">produk</text><text x="500" y="248" font-size="16" fill="#5e6b7a">tabel database</text>
+  </g>
+  <g stroke="#5e6b7a" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M325 145 H675"/><path d="M655 127 L675 145 L655 163"/>
+    <path d="M750 215 V255"/><path d="M732 235 L750 255 L768 235"/>
+    <path d="M675 325 H325"/><path d="M345 307 L325 325 L345 343"/>
+    <path d="M250 255 V215"/><path d="M232 235 L250 215 L268 235"/>
+  </g>
+</svg>

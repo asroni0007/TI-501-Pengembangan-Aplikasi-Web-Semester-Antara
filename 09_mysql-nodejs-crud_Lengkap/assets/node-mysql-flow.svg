@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="430" viewBox="0 0 1000 430">
+  <rect width="1000" height="430" fill="#ffffff"/>
+  <text x="500" y="42" text-anchor="middle" font-family="Arial" font-size="28" font-weight="700" fill="#24466e">Alur Koneksi Node.js ke MySQL</text>
+  <g font-family="Arial" text-anchor="middle">
+    <rect x="65" y="120" width="170" height="100" rx="18" fill="#eaf1fa" stroke="#24466e" stroke-width="3"/>
+    <text x="150" y="162" font-size="22" font-weight="700" fill="#24466e">Browser</text>
+    <text x="150" y="195" font-size="16" fill="#5e6b7a">Fetch API</text>
+    <rect x="315" y="120" width="170" height="100" rx="18" fill="#fff6d8" stroke="#fdbf0e" stroke-width="3"/>
+    <text x="400" y="162" font-size="22" font-weight="700" fill="#24466e">Express</text>
+    <text x="400" y="195" font-size="16" fill="#5e6b7a">Route + Controller</text>
+    <rect x="565" y="120" width="170" height="100" rx="18" fill="#edf8f2" stroke="#0f7a48" stroke-width="3"/>
+    <text x="650" y="162" font-size="22" font-weight="700" fill="#24466e">mysql2</text>
+    <text x="650" y="195" font-size="16" fill="#5e6b7a">Connection Pool</text>
+    <rect x="805" y="120" width="150" height="100" rx="18" fill="#fdebed" stroke="#a41d1f" stroke-width="3"/>
+    <text x="880" y="162" font-size="22" font-weight="700" fill="#24466e">MySQL</text>
+    <text x="880" y="195" font-size="16" fill="#5e6b7a">Tabel produk</text>
+  </g>
+  <g stroke="#24466e" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M235 170 H305"/><path d="M285 152 L305 170 L285 188"/>
+    <path d="M485 170 H555"/><path d="M535 152 L555 170 L535 188"/>
+    <path d="M735 170 H795"/><path d="M775 152 L795 170 L775 188"/>
+  </g>
+  <rect x="110" y="295" width="780" height="66" rx="18" fill="#f3f7fb" stroke="#c7d3e0"/>
+  <text x="500" y="325" text-anchor="middle" font-family="Arial" font-size="19" font-weight="700" fill="#24466e">Response JSON kembali melalui jalur yang sama</text>
+  <text x="500" y="350" text-anchor="middle" font-family="Arial" font-size="16" fill="#5e6b7a">Gunakan parameterized query agar input pengguna tidak langsung digabung ke SQL</text>
+</svg>
