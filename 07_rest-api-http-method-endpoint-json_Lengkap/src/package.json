@@ -1,0 +1,25 @@
+{
+  "name": "ti501-pertemuan-7-rest-api-http-json",
+  "version": "1.0.0",
+  "description": "Pertemuan 7 TI-501: REST API, HTTP Method, Kontrak Endpoint, dan JSON",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "rest-api",
+    "express",
+    "json",
+    "ti501",
+    "umy"
+  ],
+  "author": "Program Studi Teknologi Informasi UMY",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}

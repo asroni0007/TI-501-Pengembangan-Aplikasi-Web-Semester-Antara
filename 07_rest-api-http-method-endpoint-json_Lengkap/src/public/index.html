@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Asisten AI UMKM - REST API</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app-shell">
+    <section class="hero">
+      <p class="badge">TI-501 · Pertemuan 7</p>
+      <h1>REST API Produk UMKM</h1>
+      <p>
+        Halaman ini memakai Fetch API untuk membaca dan menambah data dari backend Express.
+        Data masih bersifat in-memory agar fokus pada konsep endpoint dan JSON.
+      </p>
+    </section>
+
+    <section class="panel">
+      <div class="panel-header">
+        <h2>Tambah Produk</h2>
+        <span>POST /api/produk</span>
+      </div>
+
+      <form id="produkForm" class="form-grid">
+        <label>
+          Nama Produk
+          <input id="nama" name="nama" placeholder="Contoh: Brownies Mini" required />
+        </label>
+        <label>
+          Kategori
+          <input id="kategori" name="kategori" placeholder="Contoh: Makanan" required />
+        </label>
+        <label>
+          Harga
+          <input id="harga" name="harga" type="number" min="1" placeholder="25000" required />
+        </label>
+        <label>
+          Stok
+          <input id="stok" name="stok" type="number" min="0" placeholder="10" required />
+        </label>
+        <label class="full">
+          Deskripsi
+          <textarea id="deskripsi" name="deskripsi" rows="3" placeholder="Deskripsi singkat produk" required></textarea>
+        </label>
+        <button type="submit">Kirim ke API</button>
+      </form>
+      <p id="pesan" class="message" aria-live="polite"></p>
+    </section>
+
+    <section class="panel">
+      <div class="panel-header">
+        <h2>Daftar Produk</h2>
+        <button id="muatUlang" type="button">Muat Ulang</button>
+      </div>
+      <div id="produkList" class="produk-grid"></div>
+    </section>
+
+    <section class="panel dark-panel">
+      <h2>Endpoint yang Dipakai</h2>
+      <pre><code>GET  /api/produk
+POST /api/produk
+GET  /api/produk/:id
+PUT  /api/produk/:id
+DELETE /api/produk/:id</code></pre>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

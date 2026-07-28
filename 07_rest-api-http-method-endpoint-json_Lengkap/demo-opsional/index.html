@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Demo Kontrak REST API</title>
+  <style>
+    body { margin:0; font-family: Arial, Helvetica, sans-serif; background:#f3f7fb; color:#202631; }
+    main { max-width: 960px; margin:auto; padding:32px; }
+    h1 { color:#24466e; }
+    table { width:100%; border-collapse: collapse; background:white; border-radius:18px; overflow:hidden; box-shadow:0 12px 26px rgba(36,70,110,.12); }
+    th { background:#24466e; color:white; text-align:left; }
+    th, td { padding:14px; border-bottom:1px solid #dbe5ef; vertical-align:top; }
+    code { background:#eef5ff; padding:3px 6px; border-radius:6px; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Demo Opsional: Kontrak Endpoint Produk UMKM</h1>
+    <p>Gunakan tabel ini sebagai acuan saat menguji REST API dengan Thunder Client, Postman, atau cURL.</p>
+    <table>
+      <thead><tr><th>Method</th><th>Endpoint</th><th>Fungsi</th><th>Status</th></tr></thead>
+      <tbody>
+        <tr><td>GET</td><td><code>/api/produk</code></td><td>Mengambil semua produk</td><td>200</td></tr>
+        <tr><td>GET</td><td><code>/api/produk/:id</code></td><td>Mengambil detail produk</td><td>200 / 404</td></tr>
+        <tr><td>POST</td><td><code>/api/produk</code></td><td>Menambah produk</td><td>201 / 400</td></tr>
+        <tr><td>PUT</td><td><code>/api/produk/:id</code></td><td>Mengubah produk</td><td>200 / 400 / 404</td></tr>
+        <tr><td>DELETE</td><td><code>/api/produk/:id</code></td><td>Menghapus produk</td><td>200 / 404</td></tr>
+      </tbody>
+    </table>
+  </main>
+</body>
+</html>
